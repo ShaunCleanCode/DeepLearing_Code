@@ -48,9 +48,9 @@ def search_articles(api_key, search_engine_id, keywords, max_pages=1):
 
     return results
 # 사용 예
-api_key = 'AIzaSyDDRGDwskC6EQfYzQBc5twf64csPGEEd6Y'
-search_engine_id = 'e53590f3b6a954c71'
-keywords = ['MK', '선교사 자녀', 'Missionary kid','선교사']
+api_key = '""'
+search_engine_id = '""'
+keywords = ['']
 
 articles = search_articles(api_key, search_engine_id, keywords)
 
